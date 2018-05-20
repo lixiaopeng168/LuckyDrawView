@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlopView">
+        <!--是否显示文字  0显示 -->
+        <attr name="flopIsText" format="integer" />
+        <!--  -1 是自定义模式  0 是指定图片 -->
+        <attr name="flopIsCustom" format="integer" />
+        <!--显示的内容-->
+        <attr name="flopText" format="string" />
+        <!--正面的图片-->
+        <attr name="flopPositiveRes" format="reference" />
+        <!--反面的图片-->
+        <attr name="flopOppositeRes" format="reference" />
+        <!--字体颜色-->
+        <attr name="flopTextColor" format="integer" />
+        <!--字体大小-->
+        <attr name="flopTextSize" format="dimension" />
+        <!--距离四周的边距，必须设置-->
+        <attr name="flopMarginLeft" format="dimension" />
+        <attr name="flopMarginTop" format="dimension" />
+        <attr name="flopMarginRight" format="dimension" />
+        <attr name="flopMarginBottom" format="dimension" />
+        <!--设置图片的大小-->
+        <attr name="flopIvWidth" format="dimension" />
+        <attr name="flopIvHeight" format="dimension" />
+        <!--图片边距-->
+        <attr name="flopIvTop" format="dimension" />
+        <attr name="flopIvBottom" format="dimension" />
+    </declare-styleable>
+    
+</resources>

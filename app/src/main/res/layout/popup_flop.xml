@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:background="#ffeeeeee"
+
+        >
+
+
+        <LinearLayout
+            android:id="@+id/flopLinnear01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                style="@style/flopPopupwindowLinnearView">
+
+
+            <com.lxp.flop.custom.FlopTextView
+                android:id="@+id/popupFlop01"
+                style="@style/flopPopupwindow"
+                >
+
+            </com.lxp.flop.custom.FlopTextView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/flopPopupwindowLinnearView">
+                <com.lxp.flop.custom.FlopTextView
+                    android:id="@+id/popupFlop02"
+                   style="@style/flopPopupwindow"
+                    >
+                </com.lxp.flop.custom.FlopTextView>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flopLinnear02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flopLinnear01"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+               style="@style/flopPopupwindowLinnearView">
+                <com.lxp.flop.custom.FlopTextView
+                    android:id="@+id/popupFlop03"
+                  style="@style/flopPopupwindow">
+
+                </com.lxp.flop.custom.FlopTextView>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+              style="@style/flopPopupwindowLinnearView">
+
+                <com.lxp.flop.custom.FlopTextView
+                    android:id="@+id/popupFlop04"
+                   style="@style/flopPopupwindow"
+                    >
+
+                </com.lxp.flop.custom.FlopTextView>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <GridView
+            android:id="@+id/flopGridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="auto_fit"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:columnWidth="150dp"
+            android:stretchMode="columnWidth"
+            android:layout_centerInParent="true"
+            android:verticalSpacing="10dp"
+            android:visibility="gone"
+            >
+
+        </GridView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

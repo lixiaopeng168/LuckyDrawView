@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--翻牌imageview id-->
+    <item type="id" name="flop_text_image" />
+</resources>

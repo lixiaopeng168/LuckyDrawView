@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.lxp.flop.custom.FlopTextView
+        android:id="@+id/flopTextView"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_margin="40dp"
+        app:flopIsCustom="-1"
+
+        >
+
+
+    </com.lxp.flop.custom.FlopTextView>
+   <!-- <com.lxp.flop.custom.FlopView
+        android:id="@+id/flopImgView"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        app:flopIsCustom="-1"
+        />-->
+
+   <!-- <com.lxp.flop.custom.FlopImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.lxp.flop.custom.FlopImageView>-->
+
+
+    <RelativeLayout
+        android:id="@+id/flopImgRotateView01"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp">
+        <RelativeLayout
+            android:id="@+id/flopImgRotate01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/flop_01"
+            />
+        <RelativeLayout
+            android:id="@+id/flopImgRotate02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/flop_01"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
