@@ -4,10 +4,11 @@
 
 翻牌抽奖动画实现
 ====
-本动画目前只实现了调用接口动态加载数据方式，如需本地实现方式请自行修改或者私我。方式在最下面
-----
-###先看一下效果:
+
+
+#先看一下效果
 ![](https://img-blog.csdn.net/20180520153858920)
+  
 ###设置配置代码:
 ' ''Java
 FlopTextView.Builder builder = new FlopTextView.Builder();
@@ -19,4 +20,4 @@ FlopTextView.Builder builder = new FlopTextView.Builder();
                 flopTextView.setConfig(builder);
 ' ''
 
-
+![](http://www.baidu.com/img/bdlogo.gif)
