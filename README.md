@@ -1,16 +1,15 @@
 # LuckyDrawView
-这是一个翻牌动画
 
 
-翻牌抽奖动画实现
-====
+# 翻牌抽奖动画实现
 
 
-#先看一下效果
+
+# 先看一下效果
 ![image](https://img-blog.csdn.net/20180520153858920)
 
   
-###设置配置代码:
+### 设置配置代码:
 ```Java
 FlopTextView.Builder builder = new FlopTextView.Builder();
                 builder.setmIsCustom(1).setmIsText(1).setmTextColor(Color.RED)
